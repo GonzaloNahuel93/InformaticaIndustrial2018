@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Traslation : MonoBehaviour {
 
-	public float translationSpeed;
+	public float translationSpeed = 5.0f;
 
 	// Use this for initialization
 	void Start () {

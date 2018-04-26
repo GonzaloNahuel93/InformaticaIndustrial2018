@@ -49,6 +49,7 @@
      <Compile Include="Assets\AcceleratorMovement.cs" />
      <Compile Include="Assets\AcceleratorRotation.cs" />
      <Compile Include="Assets\MiGiroscopio.cs" />
+     <Compile Include="Assets\MiTraslationDevice.cs" />
      <Compile Include="Assets\MouseMovement.cs" />
      <Compile Include="Assets\Traslation.cs" />
  <Reference Include="UnityEngine.UI">
