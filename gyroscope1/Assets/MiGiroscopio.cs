@@ -24,7 +24,9 @@ public class MiGiroscopio : MonoBehaviour {
 		// multiply rotation by 180 on y axis
 		//transform.rotation *= Quaternion.Euler(180f,0f,180f);
 		//var yy = Input.gyro.attitude.eulerAngles.y;
-		baseAcceleration = Input.gyro.attitude.eulerAngles;//userAcceleration;
+		baseAcceleration.Set(0f, -180f, 270f); // = Input.gyro.attitude.eulerAngles;//userAcceleration;
+		//baseAcceleration = Input.gyro.attitude.eulerAngles;//userAcceleration;
+		//Input.gyro.attitude.eulerAngles = baseAcceleration;
 	}
 	
 	// Update is called once per frame
@@ -35,9 +37,9 @@ public class MiGiroscopio : MonoBehaviour {
 		//float zi = Input.gyro.attitude.z ;//- baseAcceleration.z;
 
 		Vector3 lect = Input.gyro.attitude.eulerAngles;
-		Quaternion q = Quaternion.Euler(lect.x - baseAcceleration.x,
-			lect.y - baseAcceleration.y, 
-			lect.z - baseAcceleration.z);
+		Quaternion q = Quaternion.Euler((lect.x - baseAcceleration.x),
+			-(lect.y - baseAcceleration.y), 
+			-(lect.z - baseAcceleration.z));
 		transform.rotation = q;
 	}
 }
