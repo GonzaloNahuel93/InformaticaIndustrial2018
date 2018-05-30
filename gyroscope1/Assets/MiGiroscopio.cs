@@ -37,9 +37,8 @@ public class MiGiroscopio : MonoBehaviour {
 		//float zi = Input.gyro.attitude.z ;//- baseAcceleration.z;
 
 		Vector3 lect = Input.gyro.attitude.eulerAngles;
-		Quaternion q = Quaternion.Euler((lect.x - baseAcceleration.x),
-			-(lect.y - baseAcceleration.y), 
-			-(lect.z - baseAcceleration.z));
+		Quaternion q = Quaternion.Euler((lect.x - baseAcceleration.x),-(lect.y - baseAcceleration.y), -(lect.z - baseAcceleration.z));
+		//transform.rotation = Input.gyro.attitude;  //q;
 		transform.rotation = q;
 	}
 }
