@@ -3,7 +3,7 @@
 public class GyroscopeRotation : MonoBehaviour {
 
 	Gyroscope m_Gyro;
-	public Vector3 baseAcceleration;
+	//public Vector3 baseAcceleration;
 	
 	void Start()
 	{
@@ -13,9 +13,10 @@ public class GyroscopeRotation : MonoBehaviour {
 	
 	void Update () {
 		Vector3 lect = Input.gyro.attitude.eulerAngles;
-		Quaternion q = Quaternion.Euler((lect.x - baseAcceleration.x),
-			-(lect.y - baseAcceleration.y), 
-			-(lect.z - baseAcceleration.z));
+		Quaternion q = Quaternion.Euler(
+			-lect.y,
+			-lect.z, 
+			lect.x);//y x z
 		transform.rotation = q;
 	}
 }
