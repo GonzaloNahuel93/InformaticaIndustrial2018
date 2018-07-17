@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccelerometerTranslation.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccelerometerTranslation.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AccelerometerTranslation.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="394">
+              <caret line="29" column="5" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <marker date="1531802399831" expanded="true" signature="6:40" ph="..." />
                 <marker date="1531802399831" expanded="true" signature="95:970" ph="{...}" />
@@ -27,24 +27,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adfx.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Adfx.cs">
+      <file leaf-file-name="KeyMovement.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyMovement.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
               <folding>
-                <marker date="1531800831047" expanded="false" signature="6:78" ph="..." />
-                <marker date="1531800831047" expanded="true" signature="114:1415" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="204:211" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="266:1412" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="271:336" ph="/* MOVIMIENTOS EN 2D ... */" />
-                <marker date="1531800831047" expanded="true" signature="375:465" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="553:645" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="740:832" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="928:1021" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="1026:1108" ph="/* MOVIMIENTOS EN PROFUNDIDAD (3D) ... */" />
-                <marker date="1531800831047" expanded="true" signature="1141:1236" ph="{...}" />
-                <marker date="1531800831047" expanded="true" signature="1316:1408" ph="{...}" />
+                <marker date="1531840521465" expanded="false" signature="6:78" ph="..." />
+                <marker date="1531840521465" expanded="true" signature="121:1422" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="211:218" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="273:1419" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="278:343" ph="/* MOVIMIENTOS EN 2D ... */" />
+                <marker date="1531840521465" expanded="true" signature="382:472" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="560:652" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="747:839" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="935:1028" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="1033:1115" ph="/* MOVIMIENTOS EN PROFUNDIDAD (3D) ... */" />
+                <marker date="1531840521465" expanded="true" signature="1148:1243" ph="{...}" />
+                <marker date="1531840521465" expanded="true" signature="1323:1415" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -80,6 +80,7 @@
     <findStrings>
       <find>MiGiroscopio</find>
       <find>_ControlPoint</find>
+      <find>Adfx</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -88,7 +89,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GyroscopeRotation.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Distance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Adfx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/KeyMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AccelerometerTranslation.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -102,6 +103,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TranslationMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Adfx.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AccelerometerTranslation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyMovement.cs" />
       </list>
     </option>
   </component>
@@ -202,7 +204,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5561000" />
+    <option name="totallyTimeSpent" value="6312000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,33 +408,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <marker date="1531800831047" expanded="false" signature="6:78" ph="..." />
-            <marker date="1531800831047" expanded="true" signature="114:1415" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="204:211" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="266:1412" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="271:336" ph="/* MOVIMIENTOS EN 2D ... */" />
-            <marker date="1531800831047" expanded="true" signature="375:465" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="553:645" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="740:832" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="928:1021" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="1026:1108" ph="/* MOVIMIENTOS EN PROFUNDIDAD (3D) ... */" />
-            <marker date="1531800831047" expanded="true" signature="1141:1236" ph="{...}" />
-            <marker date="1531800831047" expanded="true" signature="1316:1408" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AccelerometerTranslation.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="394">
+          <caret line="29" column="5" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="29" selection-end-column="5" />
           <folding>
             <marker date="1531802399831" expanded="true" signature="6:40" ph="..." />
             <marker date="1531802399831" expanded="true" signature="95:970" ph="{...}" />
             <marker date="1531802399831" expanded="true" signature="205:258" ph="{...}" />
             <marker date="1531802399831" expanded="true" signature="277:968" ph="{...}" />
             <marker date="1531802399831" expanded="true" signature="329:962" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+          <folding>
+            <marker date="1531840521465" expanded="false" signature="6:78" ph="..." />
+            <marker date="1531840521465" expanded="true" signature="121:1422" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="211:218" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="273:1419" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="278:343" ph="/* MOVIMIENTOS EN 2D ... */" />
+            <marker date="1531840521465" expanded="true" signature="382:472" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="560:652" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="747:839" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="935:1028" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="1033:1115" ph="/* MOVIMIENTOS EN PROFUNDIDAD (3D) ... */" />
+            <marker date="1531840521465" expanded="true" signature="1148:1243" ph="{...}" />
+            <marker date="1531840521465" expanded="true" signature="1323:1415" ph="{...}" />
           </folding>
         </state>
       </provider>

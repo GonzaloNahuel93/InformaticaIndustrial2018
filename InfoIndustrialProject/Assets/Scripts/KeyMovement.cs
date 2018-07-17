@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Adfx : MonoBehaviour {
+public class KeyMovement : MonoBehaviour {
 
 	public float translationSpeed = 5.0f;
 

@@ -15,9 +15,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AccelerometerTranslation.cs" t="Include" />
-          <e p="Adfx.cs" t="Include" />
           <e p="Distance.cs" t="Include" />
           <e p="GyroscopeRotation.cs" t="Include" />
+          <e p="KeyMovement.cs" t="Include" />
         </e>
       </e>
       <e p="InfoIndustrialProject.sln" t="IncludeFlat" />
