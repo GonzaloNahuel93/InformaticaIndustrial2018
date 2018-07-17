@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_InfoIndustrialProject.-1103434886.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2017.3/resharper-host/local/Transient/ReSharperHost/v11/SolutionCaches/_InfoIndustrialProject.1874071261.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
@@ -15,8 +15,9 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AccelerometerTranslation.cs" t="Include" />
+          <e p="Distance.cs" t="Include" />
+          <e p="Grid.cs" t="Include" />
           <e p="GyroscopeRotation.cs" t="Include" />
-          <e p="RotationWithTranslation.cs" t="Include" />
         </e>
       </e>
       <e p="InfoIndustrialProject.sln" t="IncludeFlat" />

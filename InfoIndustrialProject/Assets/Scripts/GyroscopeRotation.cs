@@ -1,22 +1,19 @@
 ﻿using UnityEngine;
 
-public class GyroscopeRotation : MonoBehaviour {
+public class GyroscopeRotation : MonoBehaviour
+{
+    private Gyroscope gyroscope;
 
-	Gyroscope m_Gyro;
-	//public Vector3 baseAcceleration;
-	
-	void Start()
-	{
-		m_Gyro = Input.gyro;
-		m_Gyro.enabled = true;
-	}
-	
-	void Update () {
-		Vector3 lect = Input.gyro.attitude.eulerAngles;
-		Quaternion q = Quaternion.Euler(
-			-lect.y,
-			-lect.z, 
-			lect.x);//y x z
-		transform.rotation = q;
-	}
+    private void Start()
+    {
+        gyroscope = Input.gyro;
+        gyroscope.enabled = true;
+    }
+
+    private void Update()
+    {
+        var rotation = gyroscope.attitude.eulerAngles;
+        var quaternion = Quaternion.Euler(-rotation.x, -rotation.z, -rotation.y);
+        transform.rotation = quaternion;
+    }
 }
