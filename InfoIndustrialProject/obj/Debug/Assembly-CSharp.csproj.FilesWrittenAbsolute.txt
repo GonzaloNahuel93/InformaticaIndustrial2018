@@ -16,3 +16,7 @@
 /Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/obj/Debug/Assembly-CSharp.dll
+/Users/jama/Documents/repositorios_git/InformaticaIndustrial2018/InfoIndustrialProject/obj/Debug/Assembly-CSharp.dll.mdb
