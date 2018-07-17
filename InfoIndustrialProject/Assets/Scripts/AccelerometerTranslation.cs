@@ -15,6 +15,13 @@ public class AccelerometerTranslation : MonoBehaviour
 
     void Update()
     {
+        updateDistanceTraveled();
+        transform.Translate(Input.acceleration.x * ajuste, Input.acceleration.y * 0, -Input.acceleration.z * ajuste,
+            Space.World);
+    }
+
+    private void updateDistanceTraveled()
+    {
         if (startPoint != transform.position)
         {
             float metersX = transform.position.x - startPoint.x;
@@ -23,8 +30,6 @@ public class AccelerometerTranslation : MonoBehaviour
             meters = meters + Mathf.Abs(metersX) + Mathf.Abs(metersY) + Mathf.Abs(metersZ);
             startPoint = transform.position;
             _Text.text = "Distancia recorrida: " + meters.ToString("C") + " Metros";
-            transform.Translate(Input.acceleration.x * ajuste, Input.acceleration.y * 0, -Input.acceleration.z * ajuste,
-                Space.World);
             startPoint = transform.position;
         }
     }
