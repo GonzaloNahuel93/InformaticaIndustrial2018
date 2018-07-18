@@ -14,7 +14,6 @@ public class GyroscopeRotation : MonoBehaviour
     {
         var rotation = gyroscope.attitude.eulerAngles;
         var quaternion = Quaternion.Euler(-rotation.x, -rotation.z, -rotation.y);
-		//var quaternion = Quaternion.Euler(-rotation.y, -rotation.z, rotation.x);
 
 		transform.rotation = quaternion;
     }
