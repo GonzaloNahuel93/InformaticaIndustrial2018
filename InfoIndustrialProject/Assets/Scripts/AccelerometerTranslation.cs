@@ -14,11 +14,25 @@ public class AccelerometerTranslation : MonoBehaviour
         startPoint = transform.position;
     }
 
-    void Update()
-    {
+	void Update()
+	{		
+		if (!Wait5Seconds ())
+			return;
+		else 
+			adjustment = 0.4f;
+		
         UpdateDistanceTraveled();
         transform.Translate(Input.acceleration.x * adjustment, Input.acceleration.y * 0, -Input.acceleration.z * adjustment, Space.World);
     }
+
+	private bool Wait5Seconds()
+	{
+		timer += Time.deltaTime;
+		if (timer >= 5)
+			return true;
+		else
+			return false;
+	}
 
     private void UpdateDistanceTraveled()
     {
